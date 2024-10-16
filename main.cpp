@@ -14,9 +14,7 @@ int main()
 
 void swap(int &c, int &d)
 {
-  int hold;
-  hold = c;
+  int hold = c;
   c = d;
   d = hold;
-  return;
 }
